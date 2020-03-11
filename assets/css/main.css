@@ -1,0 +1,121 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url("../img/bg.jpg") repeat center fixed;
+    background-size: cover;
+    color: white !important;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 2rem !important;
+    text-shadow: 2px 2px 4px #000000;
+    color: white !important;
+}
+
+.navbar {
+    background-color: green !important;
+    border-bottom: 2px solid #e2b900;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    width: 250px !important;
+}
+
+.navbar a {
+    color: white !important;
+    font-size: 1.2rem;
+    margin-left: 2rem !important;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#cdm {
+    padding-top: 5rem;
+    overflow: hidden;
+    height: 49rem;
+}
+
+#champ {
+    overflow: hidden;
+    height: 50rem;
+}
+
+#st1 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#st2 {
+    margin-top: 5rem;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#text {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#btncdm,
+#btnL1,
+#btnLiga {
+    margin-top: 1.5rem;
+    width: 250px;
+}
+
+#ballonsL1,
+#ballonsLiga {
+    margin-top: 15rem;
+}
+
+.ballon {
+    width: 150px;
+}
+
+.resultcdm,
+.result {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+@media (max-width: 768px) {
+    html {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+
+    #btncdm,
+    #btnL1,
+    #btnLiga {
+        width: 150px;
+    }
+
+    #ballonsL1,
+    #ballonsLiga {
+        margin-top: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .ballon {
+        width: 100px;
+    }
+
+    .resultcdm,
+    .result {
+        margin-top: 0rem;
+        font-size: 1.2rem;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    #text {
+        margin-top: 5rem;
+    }
+}
